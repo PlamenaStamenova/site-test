@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin&subset=cyrillic,cyrillic-ext');
 
 body {
 	font-size: 14px;
@@ -5,6 +6,11 @@ body {
 	margin: 0;
 	background-color: #d7cec7;
 	width: 100%;
+}
+
+ h1 {
+	color:#76323f;
+	
 }
 .header{
 	width: 100%;
@@ -54,7 +60,7 @@ slider {
 
 .bigbox{
 	display: inline-block;
-	background-color: #c09f80;
+	background-color:#c09f80;
 	color: DF744A;
 	width:100%;
 	
@@ -128,10 +134,24 @@ color:#76323f;
 }
 .footer {
 	background-color: white;
+
+    padding-bottom: 3%;
+	}
+/* social media icons*/
+.social li {
+    margin-right: 18px;
+    float: left;
+	    width: 30px;
+    height: 30px;
+    margin: 5px 5px 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
-
-
-
+.icon-btn {
+    color: #76323f;
+	   
+}
 
 /* for 980px or less */
 @media screen and (max-width: 980px) {
