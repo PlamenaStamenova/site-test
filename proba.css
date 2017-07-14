@@ -210,6 +210,6 @@ width:50%;
 
 /* Contact form */
 
-
-
-
+.row-fluid {
+    display: inline-flex;
+}
