@@ -127,7 +127,11 @@ display: inline; float: left;
 margin-top: 40px;
 position: relative;
 }
-
+h2 {
+    color: #76323f;
+}
+	
+	
 ul#links {
 
 float:left;
@@ -143,6 +147,10 @@ div#footertext h1{
 div#footertext h2{
 	font-size: 12px;
 	font-style:italic;
+	    color: #76323f;
+    text-align: justify;
+    line-height: 25px;
+    margin-right: 75px;
 }
 div#links {
 width: 30%;
@@ -269,6 +277,16 @@ max-width: 90%;
 
 /* Contact form */
 
+.contacts p{
+	
+	margin: 80px;
+    padding: 8px;
+    text-align: justify;
+    line-height: 25px;
+	font-size: 14px;
+}
+
 .row-fluid {
+   
     display: inline-flex;
 }
