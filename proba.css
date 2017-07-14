@@ -107,6 +107,13 @@ div#footertext {
 display: inline-block;
 width: 70%;
 }
+div#footertext h1{
+	font-size: 20px;
+}
+div#footertext h2{
+	font-size: 12px;
+	font-style:italic;
+}
 div#links {
 width: 30%;
 display: inline-block;
