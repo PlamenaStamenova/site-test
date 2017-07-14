@@ -55,6 +55,7 @@ slider {
 	width: 8%;
 	margin-left: 40px;
     margin-right: 40px;
+	    margin-top: 18px;
 
 }
 .content {
@@ -136,6 +137,7 @@ ul#links {
 
 float:left;
 }
+/* footer*/
 
 div#footertext {
 display: inline-block;
@@ -145,12 +147,19 @@ div#footertext h1{
 	font-size: 20px;
 }
 div#footertext h2{
-	font-size: 12px;
+	font-size: 14px;
 	font-style:italic;
 	    color: #76323f;
     text-align: justify;
     line-height: 25px;
     margin-right: 75px;
+}
+div#footertext h3{
+	
+color:#76323f;
+font-size: 12px;
+ line-height: 25px;
+    margin-right: 75px;	
 }
 div#links {
 width: 30%;
@@ -254,6 +263,8 @@ max-width: 90%;
     width: 300px;
     background-color: #c09f80;
 	border-radius: 35%;
+	text-align: justify;
+    line-height: 25px;
 }
 .boxVicove img{
 	
