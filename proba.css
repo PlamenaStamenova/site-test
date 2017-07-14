@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pangolin&subset=cyrillic,cyrillic-ext');
+
 
 body {
 	font-size: 14px;
@@ -86,7 +86,6 @@ slider {
 .box img{
 	
     border-radius: 50%;
-
 	size: 5px;
 }
 #textbox{
@@ -268,7 +267,7 @@ max-width: 90%;
 }
 .boxVicove img{
 	
-    border-radius: 50%;
+    border-radius: 72px;
 
 	size: 5px;
 
