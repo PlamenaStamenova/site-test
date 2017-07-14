@@ -10,6 +10,8 @@ body {
 
  h1 {
 	color:#76323f;
+	float: left;
+
 	
 }
 .header{
@@ -38,15 +40,22 @@ slider {
 	display: inline-block;
 	float: right;
 	color:#76323f;
+	margin-top: 40px;
+    margin-right: 40px;
 }
 
-
+#topsection{
+	position:relative;
+}
 
 
 .logo {
 	display: inline-block;
 	float: left;
 	width: 8%;
+	margin-left: 40px;
+    margin-right: 40px;
+
 }
 .content {
 	max-width:1200px;
@@ -69,6 +78,9 @@ slider {
 .box {
 	display: inline-block;
 	max-width: 32%;
+	float: left;
+    width: 30%;
+    margin: 20px;
 }
 .box img{
 	
@@ -76,10 +88,14 @@ slider {
 
 	size: 5px;
 }
-///////////////
-.box: hover {
-	background: red;
+#textbox{
+	position: absolute;
+    top: 430px;
+    right: 30px;
+    width: 40%;
+    text-align: justify;
 }
+
 
 ul {
 	width: 100px;
@@ -88,10 +104,17 @@ ul {
 li{
 	width: 100px;
 	display:inline;
+	margin-left: 20px;
 	
 }
+li a{
+color:#76323f;
+}	
+	
+	
 a{
  font-size: 20px;
+ text-decoration: none;
 }
 
 img {
@@ -100,8 +123,9 @@ width: 100%;
 slider li { 
 display: inline; float: left; 
 }
-slider {
-position: relative; width: 960px; margin: 0 auto;
+#slider {
+margin-top: 40px;
+position: relative;
 }
 
 ul#links {
@@ -128,8 +152,10 @@ float: left;
 
 #footerlinks{
 display: block;	
-width: 50px;
+max-width: 100px;
 color:#76323f;
+margin-left: 10%;
+padding-left: 0;
 
 }
 .footer {
@@ -163,6 +189,12 @@ max-width:100%;
 max-width: 100%
 }
 
+}
+
+.box p{
+	text-align:justify;
+	line-height:25px;
+	
 }
 
 
@@ -224,14 +256,14 @@ max-width: 90%;
 }
 
 
-#search {
-width:50%;
-
-}
-
 
 .boxVicove p:hover{
+	
 	background:#d7cec7;
+}
+
+.content  .boxVicove:hover{
+	background:#76323f;
 }
 
 
