@@ -1,6 +1,5 @@
 
 
-
 body {
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
@@ -201,7 +200,7 @@ padding-left: 0;
 @media screen and (max-width: 980px) {
 
 .box{
-max-width:100%;
+width:28%;
 }
 .form-wrapper {
 max-width: 100%
@@ -233,10 +232,13 @@ max-width: 90%;
 /* for 480px or less */
 @media screen and (max-width: 480px) {
 	.box{
-	max-width: 100%;
+	width: 75%;
 	}
 	.form-wrapper {
 max-width: 90%;
+}
+.header{
+	width:100%
 }
 
 }
@@ -301,5 +303,4 @@ max-width: 90%;
 .row-fluid {
    
     display: inline-flex;
-
 }
