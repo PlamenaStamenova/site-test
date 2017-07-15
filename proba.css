@@ -89,12 +89,13 @@ slider {
     border-radius: 50%;
 	size: 5px;
 }
-#textbox{
+#textbox///{
 	position: absolute;
     top: 430px;
     right: 30px;
     width: 40%;
     text-align: justify;
+	
 }
 
 
